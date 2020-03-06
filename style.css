@@ -1,0 +1,55 @@
+@keyframes lamps {
+  0%{
+    font-size: 200px;
+     font-variation-settings: "wght" 400;
+  }
+  100%{
+    font-size:200px;
+    font-variation-settings: "wght" 900;
+  }
+}
+
+@font-face {
+  font-family: amusementGX;
+  src: url(https://Nikallettt.github.io/amusementGX.ttf);
+}
+
+.header{
+background-color: #DBC2CF;
+  padding: 100px 10px 10px 10px;
+  text-align: center;
+  font-size: 5px;
+  line-height: 40px;
+  width: auto;
+  height: auto;
+ /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-style: solid;//*/
+}
+
+h3{
+  font-family: amusementGX;
+  animation: lamps 3s infinite alternate;
+  /* remember: linear  */
+}
+
+p{
+font-family: tahoma;
+font-size: 10px;
+}
+
+.header p{
+ font-family: Arial Black;
+  font-size: 100px;
+}
+
+/*.box{
+  border: solid 3px black;
+  float: left;
+  margin: 50px 100px 50px 100px;
+  width: 500px;
+  height: 500px;
+  font-family: amusementGX;
+}
+
+*/
